@@ -1,6 +1,16 @@
-[{<<"hamcrest">>,{pkg,<<"hamcrest">>,<<"0.1.1">>},2},
- {<<"jiffy">>,{pkg,<<"jiffy">>,<<"0.14.7">>},0},
- {<<"meck">>,{pkg,<<"meck">>,<<"0.8.4">>},3},
- {<<"protobuffs">>,{pkg,<<"protobuffs">>,<<"0.8.2">>},2},
- {<<"riak_pb">>,{pkg,<<"riak_pb">>,<<"2.1.0">>},1},
- {<<"riakc">>,{pkg,<<"riakc">>,<<"2.1.1">>},0}].
+{"1.2.0",
+[{<<"jiffy">>,{pkg,<<"jiffy">>,<<"2.0.2">>},0},
+ {<<"riak_pb">>,
+  {git,"https://github.com/OpenRiak/riak_pb",
+       {ref,"53f6dfa7118b48e27de7494202cbcd33ce33213c"}},
+  1},
+ {<<"riakc">>,
+  {git,"https://github.com/OpenRiak/riak-erlang-client.git",
+       {ref,"8c429cb55c35916fedddd031fe911a0176d51986"}},
+  0}]}.
+[
+{pkg_hash,[
+ {<<"jiffy">>, <<"5586481424BA9D30F5603D5245A3F00C74AA586B1BB1A56CACB812BBF9CBC0FD">>}]},
+{pkg_hash_ext,[
+ {<<"jiffy">>, <<"67676E13C450BDCFACF224119C6435260B9A7EEF7B1681B4131D0193A839F9D4">>}]}
+].
