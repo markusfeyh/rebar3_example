@@ -5,7 +5,9 @@
   {mod, { blog_post_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    jiffy,
+    riakc
    ]},
   {env,[]},
   {modules, []},
